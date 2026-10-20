@@ -85,9 +85,7 @@ export const YACHTS_FLEET: Yacht[] = [
     description: 'เรือธงสุดอลังการแห่งท้องทะเลอันดามัน พร้อมดาดฟ้าจากุซซี่ ห้องสวีทระดับมาสเตอร์ และพื้นที่สังสรรค์กว้างขวางระดับอัลตร้าลักชัวรี',
     amenities: ['Jacuzzi บนดาดฟ้า Sundeck', 'ห้องมาสเตอร์สวีทพร้อมห้องน้ำหินอ่อน', 'ระบบเสียง Bang & Olufsen ทั่วลำเรือ', 'ครัวระดับ Fine Dining พร้อมเชฟส่วนตัว', 'เทนเดอร์โบ๊ต Williams Jet'],
     startingPrice: 59900,
-    <img
-  src={`${import.meta.env.BASE_URL}images/yacht.jpg`}
-  alt="Luxury Yacht"
+    image: `${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`,
 />
   },
   {
