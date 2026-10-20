@@ -282,7 +282,7 @@ export default function App() {
             <div className="lg:col-span-6 relative">
               <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white/80 relative aspect-16/10 group">
                 <img
-                  src="/src/assets/images/hero_luxury_yacht_1792177508211.jpg"
+                  src={`${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`}
                   alt="Benetti Superyacht on crystal turquoise ocean"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
