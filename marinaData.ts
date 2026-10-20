@@ -72,6 +72,65 @@ export interface TargetAudience {
   keyDesire: string;
   iconName: string;
 }
+export const YACHTS_FLEET: Yacht[] = [
+  {
+    id: 'yacht-01',
+    name: 'Valérielle Sovereign',
+    model: 'Benetti Delfino 95 Custom Superyacht',
+    lengthFeet: 95,
+    capacityMax: 12,
+    crewCount: 5,
+    cruisingSpeedKnots: 14,
+    description: 'เรือยอร์ชหรูระดับอัลตร้าลักชัวรี พร้อมดาดฟ้าจากุซซี่และห้องสวีทระดับมาสเตอร์',
+    amenities: [
+      'Jacuzzi บนดาดฟ้า Sundeck',
+      'ห้องมาสเตอร์สวีทพร้อมห้องน้ำหินอ่อน',
+      'ระบบเสียง Bang & Olufsen',
+      'ครัว Fine Dining พร้อมเชฟส่วนตัว',
+      'เทนเดอร์โบ๊ต Williams Jet',
+    ],
+    startingPrice: 59900,
+    image: `${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`,
+  },
+  {
+    id: 'yacht-02',
+    name: 'Azure Serenity',
+    model: 'Lagoon 60 Luxury Sailing Catamaran',
+    lengthFeet: 60,
+    capacityMax: 8,
+    crewCount: 4,
+    cruisingSpeedKnots: 11,
+    description: 'เรือคาตามารันสำหรับครอบครัวและกลุ่มเพื่อน',
+    amenities: [
+      'ตาข่ายชมวิวหัวเรือ',
+      'Seabob และคายัค',
+      'เครื่องปรับอากาศ',
+      'บาร์เครื่องดื่ม',
+      'Starlink',
+    ],
+    startingPrice: 29900,
+    image: `${import.meta.env.BASE_URL}family_voyage_activities_1792177509479.jpg`,
+  },
+  {
+    id: 'yacht-03',
+    name: 'Ocean Pearl Princess',
+    model: 'Sunseeker Manhattan 55 Flybridge',
+    lengthFeet: 55,
+    capacityMax: 6,
+    crewCount: 3,
+    cruisingSpeedKnots: 22,
+    description: 'เรือยอร์ชสำหรับทริปชมพระอาทิตย์ตกและทริปโรแมนติก',
+    amenities: [
+      'เลานจ์บน Flybridge',
+      'เตียงอาบแดด',
+      'ระบบเสียง Bluetooth',
+      'แพลตฟอร์มว่ายน้ำ',
+      'อุปกรณ์ดำน้ำตื้น',
+    ],
+    startingPrice: 18900,
+    image: `${import.meta.env.BASE_URL}azure_romance_sunset_1792177509767.jpg`,
+  },
+];
 
 export const TOUR_PACKAGES: TourPackage[] = [
   {
