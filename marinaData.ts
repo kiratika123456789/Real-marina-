@@ -90,7 +90,7 @@ export const YACHTS_FLEET: Yacht[] = [
       'เทนเดอร์โบ๊ต Williams Jet',
     ],
     startingPrice: 59900,
-    `${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`
+image: `${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`,
   },
   {
     id: 'yacht-02',
@@ -109,7 +109,7 @@ export const YACHTS_FLEET: Yacht[] = [
       'Starlink',
     ],
     startingPrice: 29900,
-   `${import.meta.env.BASE_URL}family_voyage_activities_1792177509479.jpg
+image: `${import.meta.env.BASE_URL}family_voyage_activities_1792177509479.jpg`,
   },
   {
     id: 'yacht-03',
@@ -128,7 +128,7 @@ export const YACHTS_FLEET: Yacht[] = [
       'อุปกรณ์ดำน้ำตื้น',
     ],
     startingPrice: 18900,
-    `${import.meta.env.BASE_URL}azure_romance_sunset_1792177509767.jpg`
+image: `${import.meta.env.BASE_URL}azure_romance_sunset_1792177509767.jpg`,
   },
 ];
 
