@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Database, Table, Key, ArrowRight, Download, Search, Check, Layers, HardDrive } from 'lucide-react';
-import { DATABASE_TABLES, DatabaseTableDefinition } from '../data/marinaData';
+import { DATABASE_TABLES } from "./marinaData";
 import { PriceTag, PriceFontOption } from './PriceTag';
 
 interface DatabaseViewerProps {
