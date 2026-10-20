@@ -31,12 +31,13 @@ import {
   PROMOTIONS,
   MEMBERSHIP_TIERS,
   TARGET_AUDIENCES
-} from './data/marinaData';
-import { MaritimeCanvas, MaritimeMode } from './components/MaritimeCanvas';
-import { PriceTag, PriceFontOption, PRICE_FONT_OPTIONS } from './components/PriceTag';
-import { ZipExporter } from './components/ZipExporter';
-import { BookingModal } from './components/BookingModal';
-import { DatabaseViewer } from './components/DatabaseViewer';
+} from './marinaData';
+
+import { MaritimeCanvas, MaritimeMode } from './MaritimeCanvas';
+import { PriceTag, PriceFontOption, PRICE_FONT_OPTIONS } from './PriceTag';
+import { ZipExporter } from './ZipExporter';
+import { BookingModal } from './BookingModal';
+import { DatabaseViewer } from './DatabaseViewer';
 
 export default function App() {
   // Navigation active tab
