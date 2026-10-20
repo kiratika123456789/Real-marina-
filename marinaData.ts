@@ -190,7 +190,7 @@ export const TOUR_PACKAGES: TourPackage[] = [
       'กิจกรรมและเวลาพักผ่อนที่ปรับยืดหยุ่นตามความต้องการของครอบครัว'
     ],
     includedServices: ['อาหารกลางวันเซตครอบครัว', 'พายเรือคายัคและบอร์ดลอยน้ำ', 'อุปกรณ์ดำน้ำตื้นทุกไซส์รวมเด็ก', 'บริการดูแลความปลอดภัยพิเศษ'],
-    image: `${import.meta.env.BASE_URL}family_voyage_activities_1792177509479.jpg,
+    image: `${import.meta.env.BASE_URL}family_voyage_activities_1792177509479.jpg`,
   },
   {
     id: 'pkg-04',
@@ -245,7 +245,7 @@ export const ADD_ON_SERVICES: AddOnService[] = [
     unit: 'ต่อแพ็กเกจอุปกรณ์',
     description: 'กิจกรรมพายเรือคายัคท้องใส (Clear Kayak), แพดเดิลบอร์ด (Paddleboard), สน็อกเกิ้ล และ Seabob ดำน้ำลึก เหมาะสำหรับกลุ่มเพื่อนและครอบครัว',
     items: ['คายัคใสถ่ายรูปสวยงาม', 'Stand Up Paddleboard 2 ลำ', 'หน้ากาก Full-face Snorkel', 'อุปกรณ์ลอยน้ำห่วงยางยูนิคอร์น/ฟลามิงโก้'],
-    image: `${import.meta.env.BASE_URL}family_voyage_activities_1792177509479.jpg,
+    image: `${import.meta.env.BASE_URL}family_voyage_activities_1792177509479.jpg`,
   },
   {
     id: 'srv-02',
