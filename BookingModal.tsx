@@ -18,10 +18,8 @@ import {
   TOUR_PACKAGES,
   ADD_ON_SERVICES,
   YACHTS_FLEET,
-  PROMOTIONS,
-  TourPackage,
-  AddOnService
-} from '../data/marinaData';
+  PROMOTIONS
+} from "./marinaData";
 import { PriceTag, PriceFontOption } from './PriceTag';
 
 interface BookingModalProps {
