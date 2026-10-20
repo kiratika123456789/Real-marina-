@@ -73,61 +73,6 @@ export interface TargetAudience {
   iconName: string;
 }
 
-export const YACHTS_FLEET: Yacht[] = [
-  {
-    id: 'yacht-01',
-    name: 'Valérielle Sovereign',
-    model: 'Benetti Delfino 95 Custom Superyacht',
-    lengthFeet: 95,
-    capacityMax: 12,
-    crewCount: 5,
-    cruisingSpeedKnots: 14,
-    description: 'เรือธงสุดอลังการแห่งท้องทะเลอันดามัน พร้อมดาดฟ้าจากุซซี่ ห้องสวีทระดับมาสเตอร์ และพื้นที่สังสรรค์กว้างขวางระดับอัลตร้าลักชัวรี',
-    
-    amenities: [
-      'Jacuzzi บนดาดฟ้า Sundeck',
-      'ห้องมาสเตอร์สวีทพร้อมห้องน้ำหินอ่อน',
-      'ระบบเสียง Bang & Olufsen ทั่วลำเรือ',
-      'ครัวระดับ Fine Dining พร้อมเชฟส่วนตัว',
-      'เทนเดอร์โบ๊ต Williams Jet',
-    ],
-    startingPrice: 59900,
-    image: `${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`,
-  },
-
-    
-    image: `${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`,
-  },
-
-  {
-    id: 'yacht-02',
-    name: 'Azure Serenity',
-    model: 'Lagoon 60 Luxury Sailing Catamaran',
-    lengthFeet: 60,
-    capacityMax: 8,
-    crewCount: 4,
-    cruisingSpeedKnots: 11,
-    description: 'เรือคาตามารันสองท้องทรงตัวนิ่งสงบ ดาดฟ้าเปิดโล่งรับลมทะเลอันดามัน เหมาะสำหรับการพักผ่อนแบบครอบครัวและกลุ่มเพื่อนสนิท',
-    amenities: ['ตาข่ายแทรมโพลีนชมวิวหัวเรือ', 'Seabob & คายัคท้องใส', 'แอร์ปรับอุณหภูมิแยกโซน', 'บาร์เครื่องดื่มริมท้ายเรือ', 'ระบบดาวเทียม Starlink ความเร็วสูง'],
-    startingPrice: 29900,
-    image: `${import.meta.env.BASE_URL}family_voyage_activities_1792177509479.jpg`,
-  },
-  {
-    id: 'yacht-03',
-
-    name: 'Ocean Pearl Princess',
-    model: 'Sunseeker Manhattan 55 Flybridge',
-    lengthFeet: 55,
-    capacityMax: 6,
-    crewCount: 3,
-    cruisingSpeedKnots: 22,
-    description: 'ฟลายบริดจ์สปีดที่คล่องแคล่วและโฉบเฉี่ยว ออกแบบมาเพื่อทริปโรแมนติกชมพระอาทิตย์ตกและทริปครึ่งวันสู่เกาะสวรรค์ส่วนตัว',
-    amenities: ['เลานจ์เปิดโล่งบน Flybridge', 'เตียงอาบแดดเบาะหนังแท้ทนน้ำ', 'ระบบสเตอริโอเชื่อมต่อบลูทูธ', 'แพลตฟอร์มว่ายน้ำระบบไฮดรอลิก', 'อุปกรณ์สน็อกเกิ้ลครบเซต'],
-    startingPrice: 18900,
-    image: '/src/assets/images/azure_romance_sunset_1792177509767.jpg'
-  }
-];
-
 export const TOUR_PACKAGES: TourPackage[] = [
   {
     id: 'pkg-01',
