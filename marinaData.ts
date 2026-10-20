@@ -95,6 +95,11 @@ export const YACHTS_FLEET: Yacht[] = [
     image: `${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`,
   },
 
+    
+    image: `${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`,
+  },
+
+  {
     id: 'yacht-02',
     name: 'Azure Serenity',
     model: 'Lagoon 60 Luxury Sailing Catamaran',
@@ -105,10 +110,11 @@ export const YACHTS_FLEET: Yacht[] = [
     description: 'เรือคาตามารันสองท้องทรงตัวนิ่งสงบ ดาดฟ้าเปิดโล่งรับลมทะเลอันดามัน เหมาะสำหรับการพักผ่อนแบบครอบครัวและกลุ่มเพื่อนสนิท',
     amenities: ['ตาข่ายแทรมโพลีนชมวิวหัวเรือ', 'Seabob & คายัคท้องใส', 'แอร์ปรับอุณหภูมิแยกโซน', 'บาร์เครื่องดื่มริมท้ายเรือ', 'ระบบดาวเทียม Starlink ความเร็วสูง'],
     startingPrice: 29900,
-    image: `${import.meta.env.BASE_URL}family_voyage_activities_1792177509479.jpg`
+    image: `${import.meta.env.BASE_URL}family_voyage_activities_1792177509479.jpg`,
   },
   {
     id: 'yacht-03',
+
     name: 'Ocean Pearl Princess',
     model: 'Sunseeker Manhattan 55 Flybridge',
     lengthFeet: 55,
