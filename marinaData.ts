@@ -150,7 +150,7 @@ export const TOUR_PACKAGES: TourPackage[] = [
       'เสิร์ฟน้ำดื่ม น้ำผลไม้ ผลไม้ตามฤดูกาล และอุปกรณ์ความปลอดภัย'
     ],
     includedServices: ['กัปตันและลูกเรือผู้เชี่ยวชาญ', 'น้ำมันเรือตลอดเส้นทาง 4 ชม.', 'ผลไม้และเครื่องดื่ม Welcome Drink', 'ประกันอุบัติเหตุทางทะเล'],
-    `${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`
+    image: `${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`
   },
   {
     id: 'pkg-02',
@@ -170,7 +170,7 @@ export const TOUR_PACKAGES: TourPackage[] = [
       'สามารถเพิ่มบริการขอแต่งงาน เซอร์ไพรส์เค้ก หรือช่างภาพมืออาชีพ'
     ],
     includedServices: ['ดินเนอร์โรแมนติก 2 ท่าน', 'ไวน์ขาวหรือสปาร์กลิ้ง 1 ขวด', 'การตกแต่งธีมดอกไม้สด', 'กัปตันและผู้ดูแลส่วนตัว'],
-    `${import.meta.env.BASE_URL}azure_romance_sunset_1792177509767.jpg`
+   image: `${import.meta.env.BASE_URL}azure_romance_sunset_1792177509767.jpg`
   },
   {
     id: 'pkg-03',
@@ -190,7 +190,7 @@ export const TOUR_PACKAGES: TourPackage[] = [
       'กิจกรรมและเวลาพักผ่อนที่ปรับยืดหยุ่นตามความต้องการของครอบครัว'
     ],
     includedServices: ['อาหารกลางวันเซตครอบครัว', 'พายเรือคายัคและบอร์ดลอยน้ำ', 'อุปกรณ์ดำน้ำตื้นทุกไซส์รวมเด็ก', 'บริการดูแลความปลอดภัยพิเศษ'],
-    `${import.meta.env.BASE_URL}family_voyage_activities_1792177509479.jpg
+    image: `${import.meta.env.BASE_URL}family_voyage_activities_1792177509479.jpg
   },
   {
     id: 'pkg-04',
@@ -210,7 +210,7 @@ export const TOUR_PACKAGES: TourPackage[] = [
       'สามารถเพิ่มบริการรถลีมูซีนรับส่งจากโรงแรมและช่างภาพส่วนตัว'
     ],
     includedServices: ['Private Concierge ตลอดทริป', 'กูร์เมต์ลันช์โดยเชฟรับเชิญ', 'เครื่องดื่มพรีเมียมตลอดวัน', 'อุปกรณ์กีฬาทางน้ำระดับสูง'],
-    `${import.meta.env.BASE_URL}private_chef_dining_1792177509041.jpg`
+    image: `${import.meta.env.BASE_URL}private_chef_dining_1792177509041.jpg`
   },
   {
     id: 'pkg-05',
@@ -230,7 +230,7 @@ export const TOUR_PACKAGES: TourPackage[] = [
       'บริการถ่ายภาพบันทึกภาพความประทับใจและจัดตารางกิจกรรมเป็นระบบ'
     ],
     includedServices: ['เซตค็อกเทล & ฟิงเกอร์ฟู้ด', 'ป้ายต้อนรับแบรนด์องค์กร', 'ระบบเสียงไมโครโฟนสำหรับพรีเซนต์', 'ทีมงานประสานงานกิจกรรม'],
-    `${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`
+    image: `${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`
   }
 ];
 
@@ -245,7 +245,7 @@ export const ADD_ON_SERVICES: AddOnService[] = [
     unit: 'ต่อแพ็กเกจอุปกรณ์',
     description: 'กิจกรรมพายเรือคายัคท้องใส (Clear Kayak), แพดเดิลบอร์ด (Paddleboard), สน็อกเกิ้ล และ Seabob ดำน้ำลึก เหมาะสำหรับกลุ่มเพื่อนและครอบครัว',
     items: ['คายัคใสถ่ายรูปสวยงาม', 'Stand Up Paddleboard 2 ลำ', 'หน้ากาก Full-face Snorkel', 'อุปกรณ์ลอยน้ำห่วงยางยูนิคอร์น/ฟลามิงโก้'],
-    `${import.meta.env.BASE_URL}family_voyage_activities_1792177509479.jpg
+    image: `${import.meta.env.BASE_URL}family_voyage_activities_1792177509479.jpg
   },
   {
     id: 'srv-02',
@@ -257,7 +257,7 @@ export const ADD_ON_SERVICES: AddOnService[] = [
     unit: 'ต่อกลุ่ม (ขึ้นกับคอร์สเมนู)',
     description: 'เชฟส่วนตัวปรุงสดบนเรือ อาหารทะเลภูเก็ตพรีเมียม ล็อบสเตอร์ย่างเนยกระเทียม ซาชิมิสด และเมนูเฉพาะบุคคลตามความต้องการ',
     items: ['เชฟส่วนตัวปรุงสดตลอดการล่องเรือ', 'ซีฟู้ดพลาตเตอร์ระดับพรีเมียม', 'สเต็กเนื้อวากิวออสเตรเลีย', 'ของหวานซิกเนเจอร์ผลไม้ทรอปิคอล'],
-    `${import.meta.env.BASE_URL}private_chef_dining_1792177509041.jpg`
+    image: `${import.meta.env.BASE_URL}private_chef_dining_1792177509041.jpg`
   },
   {
     id: 'srv-03',
@@ -269,7 +269,7 @@ export const ADD_ON_SERVICES: AddOnService[] = [
     unit: 'ต่อทริป',
     description: 'ช่างภาพมืออาชีพเก็บภาพความประทับใจ ภาพถ่ายบนเรือยอร์ชมุมมองสูงด้วยโดรน วิดีโอสั้นพร้อมตัดต่อสำหรับ Instagram/Reels/TikTok',
     items: ['ช่างภาพพร้อมอุปกรณ์โปรตลอดทริป', 'ถ่ายภาพมุมสูงด้วยโดรนความละเอียด 4K', 'ปรับแต่งสีโทน Ocean Aesthetic 50+ ภาพ', 'คลิป Reel สั้นพร้อมแชร์ ภายใน 48 ชั่วโมง'],
-    `${import.meta.env.BASE_URL}azure_romance_sunset_1792177509767.jpg`
+    image: `${import.meta.env.BASE_URL}azure_romance_sunset_1792177509767.jpg`
   },
   {
     id: 'srv-04',
@@ -281,7 +281,7 @@ export const ADD_ON_SERVICES: AddOnService[] = [
     unit: 'ต่องานฉลอง',
     description: 'จัดดอกไม้สด ซุ้มไฟประดับ ป้ายข้อความสั่งทำพิเศษ เค้กวันเกิด หรือเซตเซอร์ไพรส์ขอแต่งงานที่ออกแบบเฉพาะตัว',
     items: ['ซุ้มดอกไม้สดดีไซน์หรูหรา', 'ไฟประดับ Fairy Lights โรแมนติก', 'เค้กวันเกิดหรือแชมเปญพรีเมียม', 'ป้ายข้อความอะคริลิกสั่งทำพิเศษ'],
-    `${import.meta.env.BASE_URL}azure_romance_sunset_1792177509767.jpg`
+    image: `${import.meta.env.BASE_URL}azure_romance_sunset_1792177509767.jpg`
   },
   {
     id: 'srv-05',
@@ -293,7 +293,7 @@ export const ADD_ON_SERVICES: AddOnService[] = [
     unit: 'ต่อเที่ยวไป-กลับ',
     description: 'รถตู้ Alphard หรือ Mercedes Benz รับส่งจากโรงแรมหรือสนามบิน พร้อมพนักงานต้อนรับนำท่านขึ้นเรืออย่างสะดวกสบายและเป็นส่วนตัว',
     items: ['รถยนต์ Luxury Van รับส่งส่วนตัว', 'น้ำดื่มเย็นและผ้าเย็นกลิ่นอโรมา', 'Fast-track เช็คอิน ณ ท่าเรือ Marina', 'ผู้ประสานงานกระเป๋าเดินทางส่วนตัว'],
-    `${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`
+    image: `${import.meta.env.BASE_URL}hero_luxury_yacht_1792177508211.jpg`
   }
 ];
 
